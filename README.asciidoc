@@ -1,0 +1,17 @@
+= excel2csv
+
+Tool to convert excel (.xlsx) sheets to csv files.
+
+== Usage
+
+```shell
+> excel2csv -watch -input sample.xlsx
+2018/03/14 21:45:21 debug: sheet [Реестр] sucessfully converted to [Реестр.csv]
+2018/03/14 21:45:21 debug: sheet [Вариант использования] sucessfully converted to [Вариант использования.csv]
+2018/03/14 21:45:21 debug: watching [sample/sheets.xlsx]
+...
+```
+
+== License
+
+MIT
